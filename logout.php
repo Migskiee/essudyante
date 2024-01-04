@@ -8,5 +8,5 @@ if(isset($_SESSION['user_id']))
 
 }
 
-header("Location: LoginPage.php");
+header("Location: index.php");
 die;
