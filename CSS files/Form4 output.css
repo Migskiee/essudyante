@@ -1,0 +1,127 @@
+
+  
+     
+
+          body{
+            background-color: lightgreen;
+          }
+  
+        .menu-bar {
+          background-color: rgb(0, 61, 0);
+          opacity: calc(80%);
+          height: 90px;
+          width: inherit;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          /*padding: 0 5%;*/
+          position: relative;
+          box-shadow: black 0px 0px 40px;
+          border-bottom: black;
+          border-width: 2px;
+          border-style: solid;  
+          margin-bottom: 20px;
+        }
+      
+      
+        .menu-bar ul {
+          list-style: none;
+          display: flex;
+        }
+        
+        .menu-bar ul li {
+          /* width: 120px; */
+          padding: 10px 30px;
+          /* text-align: center; */
+        
+          position: relative;
+        }
+        
+        .menu-bar ul li a {
+          text-align: center;
+          padding: 20px;
+          font-family: sans-serif;
+          margin: 20px;
+          font-size: 20px;
+        color: white;
+          text-decoration: none;
+          font-style: 600;
+          transition: all 0.4s ease;
+        }
+        .menu-bar ul li a:hover {
+          color: red;
+        }
+        .fa-solid{
+          margin-left: 10px;
+          
+        }
+        
+      ::selection {
+        background: green;
+        color: #fff;
+      }
+
+      header{
+        width: inherit;
+      }
+
+      .container{
+        background-color: white;
+        margin:100px;
+        padding: 20px;
+        border-radius: 30px;
+      }
+      .input-box{
+        width: 100%;
+        outline: none;
+        border: none;
+      }
+
+      .input-box input{
+        width: inherit;
+        height: 25px;
+        outline:none;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        font-size: 20px;
+        
+      }
+
+      label{
+        color: black;
+        font-family: sans-serif;
+      }
+
+      .title{
+        margin: 14px;
+        font-size: 18px;
+        font-family: sans-serif;
+        font-weight: 700;
+        color: black;
+      }
+
+      th, td{
+        
+        padding: 4px;
+      }
+
+      .button-container .btn-done{
+        text-align: center;
+        padding: 10px;
+        width: 200px;
+        background-color: white;
+        margin: 10px;
+        border-radius: 30px;
+        color: black;
+        font-size: medium;
+        font-family: sans-serif;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.4s ease;
+      }
+      .button-container :hover{
+        color: white;
+        background-color: green;
+      }
+      
